@@ -2,7 +2,7 @@
  * @name SpotifyPL
  * @author Gam3rr
  * @authorId 849731649289453629
- * @version 2
+ * @version 2.1
  * @description Spotify Listen Along For Free Users | Prevents Discord From Pausing Spotify When Sharing Music
  * @source https://github.com/Gam3rrXD/SpotifyPL
  * @updateUrl https://raw.githubusercontent.com/Gam3rrXD/SpotifyPL/main/SpotifyPL.plugin.js
@@ -16,6 +16,16 @@ module.exports = (_ => {
 				"name": "Gam3rr",
 				"discord_id": "849731649289453629",
 				"github_username": "Gam3rrXD",
+			},
+			{
+				"name": "ordinall",
+				"discord_id": "374663636347650049",
+				"github_username": "ordinall",
+			},
+			{
+				"name": "bep",
+				"discord_id": "147077474222604288",
+				"github_username": "bepvte",
 			}],
 			"version": "2.1.0",
 			"description": "Spotify Listen Along For Free Users | Prevents Discord From Pausing Spotify When Sharing Music",
