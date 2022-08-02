@@ -17,7 +17,7 @@ module.exports = (_ => {
 				"discord_id": "849731649289453629",
 				"github_username": "Gam3rrXD",
 			}],
-			"version": "2.0.0",
+			"version": "2.1.0",
 			"description": "Spotify Listen Along For Free Users | Prevents Discord From Pausing Spotify When Sharing Music",
 			"github": "https://github.com/Gam3rrXD/SpotifyPL",
 			"github_raw": "hhttps://raw.githubusercontent.com/Gam3rrXD/SpotifyPL/main/SpotifyPL.plugin.js"
