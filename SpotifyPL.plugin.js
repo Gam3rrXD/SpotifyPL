@@ -24,6 +24,12 @@ module.exports = (_ => {
 		},
 		"changelog": [
 			{
+				"title": "v2.1",
+				"items": [
+					"Hotfix Added For New Update!"
+				]
+			},
+			{
 				"title": "v2",
 				"items": [
 					"Renewed | Spotify No Pause Added!"
@@ -78,10 +84,10 @@ module.exports = (_ => {
 				}
 
 				start() {
-					const { ActionTypes: { SPOTIFY_PROFILE_UPDATE: type } } = DiscordModules.DiscordConstants
+					
 					Patcher.instead(DiscordModules.DeviceStore, 'getProfile', ( _, [id, t] ) =>
 						DiscordModules.Dispatcher.dispatch({
-							type,
+							type: "SPOTIFY_PROFILE_UPDATE",
 							accountId: id,
 							isPremium: true
 						})
