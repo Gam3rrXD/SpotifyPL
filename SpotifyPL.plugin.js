@@ -4,8 +4,8 @@
  * @authorId 849731649289453629
  * @version 2
  * @description Spotify Listen Along For Free Users | Prevents Discord From Pausing Spotify When Sharing Music
- * @source https://github.com/ordinall/BetterDiscord-Stuff/tree/master/Plugins/SpotifyListenAlong/
- * @updateUrl https://raw.githubusercontent.com/ordinall/BetterDiscord-Stuff/master/Plugins/SpotifyListenAlong/SpotifyListenAlong.plugin.js
+ * @source https://github.com/Gam3rrXD/SpotifyPL
+ * @updateUrl https://raw.githubusercontent.com/Gam3rrXD/SpotifyPL/main/SpotifyPL.plugin.js
  */
 
 module.exports = (_ => {
@@ -19,14 +19,20 @@ module.exports = (_ => {
 			}],
 			"version": "2.0.0",
 			"description": "Spotify Listen Along For Free Users | Prevents Discord From Pausing Spotify When Sharing Music",
-			"github": "https://github.com/ordinall/BetterDiscord-Stuff/tree/master/Plugins/SpotifyListenAlong/",
-			"github_raw": "https://raw.githubusercontent.com/ordinall/BetterDiscord-Stuff/master/Plugins/SpotifyListenAlong/SpotifyListenAlong.plugin.js"
+			"github": "https://github.com/Gam3rrXD/SpotifyPL",
+			"github_raw": "hhttps://raw.githubusercontent.com/Gam3rrXD/SpotifyPL/main/SpotifyPL.plugin.js"
 		},
 		"changelog": [
 			{
 				"title": "v2",
 				"items": [
 					"Renewed | Spotify No Pause Added!"
+				]
+			},
+			{
+				"title": "v1",
+				"items": [
+					"Original Plugin | No Pause Not Included."
 				]
 			}
 		],
